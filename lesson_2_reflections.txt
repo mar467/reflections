@@ -1,1 +1,3 @@
 When you initialize a repository, you create an empty .git file which from that point on tracks all commits to the repo's history
+
+The staging area is different from the working directory and the repository in that it is an intermediate state before a group of files is officially committed to the repo as a git commit. This is valuable because it allows you to pick and choose what files you want to commit at a given time.
