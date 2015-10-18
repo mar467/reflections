@@ -1,0 +1,1 @@
+When you initialize a repository, you create an empty .git file which from that point on tracks all commits to the repo's history

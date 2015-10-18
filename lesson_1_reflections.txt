@@ -1,0 +1,19 @@
+Viewing a diff between two versions of a file allow you to identify what changes were made between the functional program and the dysfunctional program, thereby enabling identification of the error in the latter.
+
+Having easy access to the entire version history of code can enable you to see how you progress and how you integrate new features into programs, either for reference or to learn from
+
+/* make one commit per LOGICAL change... so that's quite small, but too small. this actually makes a lot of sense from a programming standpoint */
+
+The pro of doing manual commits in git is that it separates the program versions into logically sound and self-functional distinct versions. The con is that it requires more effort and time.
+
+/* collection of files tracking together = repository */
+
+Multi-file commits. The reason multiple files are allowed to be saved in one commit in Git is that in some cases, all the files are relevant to each other and a change in one might be pertinent to all others.
+
+You can use git log to view a complete commit history of all the files in the repo. You can use git diff followed by two ids to view specific changes between them (git log just shows comments)
+
+Using git would make me a lot more comfortable making large changes in my code that could break something, because I could then simply "checkout" to an older commit if it does break!
+
+I want to use Git to work on projects with Ari
+
+When you initialize a repository, you create an empty .git file which from that point on tracks all commits to the repo's history
