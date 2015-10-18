@@ -1,3 +1,11 @@
 When you initialize a repository, you create an empty .git file which from that point on tracks all commits to the repo's history
 
 The staging area is different from the working directory and the repository in that it is an intermediate state before a group of files is officially committed to the repo as a git commit. This is valuable because it allows you to pick and choose what files you want to commit at a given time.
+
+You can use the staging area to make sure you have exactly one logical change by using git diff --staging or something like that (I forgot) and see how many changes you made. If you made more than one... then... erm, idk.
+
+When you would want to try some experimental features before officially commiting them, or make a different language version of the code, or something. Branches allow you to commit significant changes without compromising the master branch
+
+Diagrams help visualize the branch structure by literally showing you the branch structure. And then you can trace back what commits are reachable and which aren't
+
+Merging two branches together is a way for git to combine the newly added features of both branches with respect to the origin of them both, provided no conflicts exist.
