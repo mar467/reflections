@@ -9,3 +9,5 @@ When you would want to try some experimental features before officially commitin
 Diagrams help visualize the branch structure by literally showing you the branch structure. And then you can trace back what commits are reachable and which aren't
 
 Merging two branches together is a way for git to combine the newly added features of both branches with respect to the origin of them both, provided no conflicts exist.
+
+Automatic merging is incredibly useful, and while it may result in conflicts that need to be sorted via manual merging, they are easily noted.
