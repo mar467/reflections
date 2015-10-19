@@ -5,3 +5,5 @@ You might want to pull changes manually because otherwise you'll get occasionall
 Branches are to branch off from master branch in case of needing to make structural or whatever changes. Clones are copying onto your local drive. Forks are to copy another's remote onto your GitHub profile.
 
 The benefit of having a copy of the last known state of the remote stored locally (origin/master) is that it enables easier merging
+
+I wouldn't collaborate without Git or GitHub
