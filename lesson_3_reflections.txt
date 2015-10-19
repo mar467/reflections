@@ -7,3 +7,5 @@ Branches are to branch off from master branch in case of needing to make structu
 The benefit of having a copy of the last known state of the remote stored locally (origin/master) is that it enables easier merging
 
 I wouldn't collaborate without Git or GitHub
+
+Making a separate branch is good if you want to make a pull request
